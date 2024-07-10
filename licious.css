@@ -1,0 +1,758 @@
+
+.page {
+  width: 99%;
+  background-color: rgb(255, 255, 255);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lock {
+  
+  height: 50px;
+}
+
+.project {
+  /* background-color: rgb(223, 15, 15); */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navibardiv {
+  background-color: rgb(255, 251, 251);
+  width: 99%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border: 0.1px solid rgba(239, 236, 236, 0.854);
+  position: fixed;
+  top: 0;
+}
+
+.flogo {
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  /* padding-left: 60px; */
+}
+
+.location {
+  background-color: rgb(255, 253, 253);
+  width: 200px;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.Loca {
+  font-size: 12px;
+  border: 0;
+}
+
+.det {
+  font-size: 10px;
+  margin-right: 60px;
+  color: rgb(87, 85, 85);
+}
+
+.Search {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 30px; */
+}
+
+.inp {
+  width: 350px;
+  height: 30px;
+  border-color: rgba(220, 212, 212, 0);
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.263);
+}
+
+.cate {
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 70px; */
+}
+
+.login {
+  background-color: rgb(255, 254, 254);
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 30px; */
+}
+
+.cart {
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 90px;
+}
+
+.infiniti {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infi {
+  border-radius: 15px;
+}
+.twobox{
+  /* background-color: aqua; */
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shopbycategories {
+  /* background-color: rgb(222, 12, 12); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 480px;
+}
+
+.shophead {
+  background-color: rgb(255, 255, 255);
+  width: 89%;
+  height: 60px;
+  /* margin-left: 60px; */
+}
+
+.shop {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  /* padding-bottom: 30px; */
+}
+
+.fresh {
+  color: rgb(110, 109, 109);
+}
+
+.first6box {
+  width: 1100px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.f6box {
+  background-color: rgb(255, 255, 250);
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.second6box {
+  width: 1100px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.s6box {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.adphoto {
+  width: 140px;
+}
+
+.bestsellerhead {
+  width: 300px;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.best {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+}
+
+.most {
+  color: rgb(110, 109, 109);
+  margin-top: 40px;
+}
+
+.orderdetails {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.product {
+  background-color: rgb(254, 254, 254);
+  width: 200px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+.allphoto{background-color: aqua;
+}
+
+.plus{height: 25px;
+width: 35px;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+
+.pro {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.prohead {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.idi {
+  display: flex;
+}
+
+.withpricegreen {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.green {
+  color: rgb(30, 185, 30);
+  font-size: 20px;
+}
+
+.freshatliciousmaindiv {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 350px;
+}
+
+.freshatliciousheaddiv {
+  background-color: rgb(252, 252, 252);
+  width: 20%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40px;
+  /* padding-top: 20px; */
+}
+
+.freshatlicioushead {
+  font-size: 25px;
+}
+
+.hand {
+  color: rgb(78, 75, 75);
+}
+
+.poster {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 25px;
+}
+
+.pos {
+  border-radius: 15px;
+}
+
+.combomaindiv {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 400px;
+}
+
+.combohead {
+  background-color: rgb(255, 254, 254);
+  width: 190px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding-left: 40px;
+}
+
+.comb {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+}
+
+.savo {
+  color: rgb(93, 88, 88);
+  font-size: 20px;
+}
+
+.fooddetailsdiv {
+  height: 320px;
+  background-color: rgb(255, 255, 254);
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30px;
+}
+
+.item {
+  background-color: rgb(255, 255, 255);
+  width: 215px;
+  height: 320px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.foodphoto {
+  width: 200px;
+  border-radius: 18px;
+}
+
+.foodname {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.gree {
+  font-size: 20px;
+  color: rgb(11, 206, 11);
+}
+
+.Todaydiv {
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 160px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pricediv {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.time3 {
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.Todaydiv4 {
+  font-size: 20px;
+  background-color: rgb(255, 254, 254);
+  width: 200px;
+
+  display: flex;
+  padding-top: 37px;
+}
+
+.RS199div {
+  width: 100%;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.rs199head {
+  font-size: 23px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 30px; */
+  /* padding-left: 20px; */
+}
+
+.Todaydiv4 {
+  font-size: 15px;
+}
+
+.Yourgo-tobreakfastmeatdiv {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 300px;
+  padding-bottom: 80px;
+}
+
+.yougotohead {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.item {
+  background-color: rgb(255, 253, 253);
+  display: flex;
+}
+
+.pricediv31 {
+  background-color: rgb(247, 247, 255);
+}
+
+.pricediv23 {
+  background-color: rgb(255, 255, 255);
+  width: 160px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rosediv {
+  background-color: #fdf3f6;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.ros {
+  background-color: #fdf3f6;
+  width: 350px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.para {
+  background-color: #fdf3f6;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+
+  line-height: 150%;
+}
+
+.contactdiv {
+  background-color: aqua;
+  width: 99%;
+  height: 400px;
+  /* padding-bottom: 60px; */
+}
+
+.contacthead {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  background-color: rgb(255, 255, 255);
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lio {
+  width: 90%;
+}
+
+.detaildiv {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.exp {
+  background-color: rgb(254, 252, 255);
+}
+
+.use {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+}
+
+.about {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.contacts {
+  background-color: rgb(254, 254, 255);
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mail {
+  background-color: rgb(255, 255, 255);
+}
+
+.citiesdiv {
+  background-color: rgba(245, 245, 220, 0.4);
+  width: 100%;
+  height: 200px;
+}
+
+.citihead {
+  /* background-color: rgba(245, 245, 220, 0.4); */
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cititeaxt {
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.total {
+  /* background-color: rgba(245, 245, 220, 0.4); */
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.citi1 {
+  /* background-color: rgba(245, 245, 220, 0.4); */
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+.citi2 {
+  /* background-color: rgba(245, 245, 220, 0.4); */
+  display: flex;
+  justify-content: space-around;
+}
+::placeholder {
+  color: black;
+  font-size: 13px;
+  font-weight: 200px;
+}
+
+.place {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+  border: 0.5px;
+}
+
+b {
+  font-weight: 400;
+}
+
+.popular {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+.popularhead {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.pop {
+  background-color: rgb(255, 255, 255);
+  width: 290px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.popular{
+
+  /* background-color: aqua; */
+  height: 150vh;
+}
+.finaldetails {
+  /* background-color: rgb(18, 228, 49); */
+  width: 90%;
+  height: 150vh;
+}
+/* .ite {
+  font-size: 15px;
+}
+.ite::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(1);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #121111;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.ite:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;  
+}
+.ite{
+  text-decoration: none;
+  color: #000;
+} */
+
+.hover-underline-animation{
+  display: inline-block;
+  position: relative;
+  color: #000;
+  font-family: 'Lato Regular', sans-serif;
+  font-size: 15px;  
+}
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.wety{
+  display: inline-block;
+  position: relative;
+  color: #534e4e;
+  font-family: 'Lato Regular', sans-serif;
+  font-size: 14px; 
+  text-decoration: none;
+}
+.wety::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #121111;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.wety:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;  
+}
+.wety1{
+  text-decoration: none;
+  color: #000;
+}
+
+.copyrightdiv {
+  background-color: #464646;
+  /* background-color: yellow; */
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 50px; */
+}
+
+.lastdetails {
+  
+  width: 75%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
